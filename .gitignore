@@ -1,0 +1,9 @@
+data/
+__pycache__/
+*.pyc
+*.o
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
