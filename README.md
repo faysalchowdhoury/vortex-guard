@@ -2,7 +2,9 @@
 
 Zero-trust runtime sandboxing for autonomous AI agents executing untrusted code in multi-tenant clouds.
 
-Status: work in progress. Planned components:
+Status: work in progress. Read [docs/HANDOFF.md](docs/HANDOFF.md) for the full work history and resume steps.
+
+Components:
 
 - `kernel/`: libbpf CO-RE eBPF ring-buffer syscall probe
 - `vortexguard/`: syscall tokenizer, selective state-space (Mamba) detector, process-tree and socket-flux divergence branch, seccomp tightening, OverlayFS snapshot rollback
