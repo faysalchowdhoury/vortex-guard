@@ -1,0 +1,43 @@
+{
+ "counts": {
+  "train": {
+   "normal": 833,
+   "attack": 356,
+   "Adduser": 40,
+   "Hydra_FTP": 81,
+   "Hydra_SSH": 87,
+   "Java_Meterpreter": 59,
+   "Meterpreter": 36,
+   "Web_Shell": 53,
+   "instances": 30
+  },
+  "val": {
+   "normal": 1183,
+   "attack": 148,
+   "Adduser": 16,
+   "Hydra_FTP": 33,
+   "Hydra_SSH": 30,
+   "Java_Meterpreter": 25,
+   "Meterpreter": 19,
+   "Web_Shell": 25,
+   "instances": 12
+  },
+  "test": {
+   "normal": 1716,
+   "attack": 235,
+   "Adduser": 35,
+   "Hydra_FTP": 47,
+   "Hydra_SSH": 57,
+   "Java_Meterpreter": 38,
+   "Meterpreter": 19,
+   "Web_Shell": 39,
+   "instances": 18
+  }
+ },
+ "dropped_duplicates": {
+  "val_vs_train": 129,
+  "test_vs_trainval": 1351
+ },
+ "lmax": 512,
+ "protocol": "attack instances 1-5/6-7/8-10 per family; normal validation 30/70; exact-duplicate removal"
+}

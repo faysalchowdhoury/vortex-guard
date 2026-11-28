@@ -7,3 +7,7 @@ __pycache__/
 *.bbl
 *.blg
 *.out
+kernel/build/
+results/logs/
+results/checkpoints/
+.pytest_cache/
